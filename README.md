@@ -1,9 +1,9 @@
 # sybase-iq-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for Sybase IQ
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Sybase IQ (beta)](https://www.cdata.com/download/download.aspx?sku=GYZM-V&type=beta). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Sybase IQ](https://www.cdata.com/drivers/sybaseiq/download/mcp/). 
 ## Purpose
-We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Sybase IQ supported by the [CData JDBC Driver for Sybase IQ](https://www.cdata.com/drivers/sybaseiq/jdbc).
+We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Sybase IQ supported by the [CData JDBC Driver for Sybase IQ](https://www.cdata.com/drivers/sybaseiq/jdbc/).
 
 CData JDBC Driver connects to Sybase IQ by exposing them as relational SQL models.
 
@@ -20,7 +20,7 @@ This server wraps that driver and makes Sybase IQ data available through a simpl
       mvn clean install
       ``` 
       This creates the JAR file: CDataMCP-jar-with-dependencies.jar
-2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/sybaseiq/download/jdbc](https://www.cdata.com/drivers/sybaseiq/download/jdbc)
+2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/sybaseiq/download/jdbc](https://www.cdata.com/drivers/sybaseiq/download/jdbc/)
 3. License the CData JDBC Driver:
     * Navigate to the `lib` folder in the installation directory, typically:
         * (Windows) `C:\Program Files\CData\CData JDBC Driver for Sybase IQ\`
